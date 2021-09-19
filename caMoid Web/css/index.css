@@ -1,0 +1,32 @@
+#mapid {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+body {
+    margin: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.build {
+    right: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-self: center;
+    margin: auto;
+    width: 200px;
+    height: 100px;
+    bottom: 20px;
+    z-index: 20;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
